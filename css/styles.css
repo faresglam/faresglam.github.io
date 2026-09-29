@@ -87,3 +87,10 @@ button,input,select,.button,.admin-card,.admin-create,.admin-product>img,.admin-
 .admin-view,.admin-card,#admin-content{min-width:0;max-width:100%}.admin-order>div{min-width:0}.admin-order p,.admin-order strong{overflow-wrap:anywhere}
 .admin-view .button,.admin-product-fields .button{letter-spacing:.12em}
 @media(max-width:560px){.order-update{display:grid;grid-template-columns:1fr 1fr;gap:8px}.order-update .contact-button{grid-column:1/-1;display:flex;align-items:center;justify-content:center}.order-update select{min-width:0;width:100%;min-height:38px}.order-update .button{padding:0 8px;min-height:38px;white-space:nowrap}.admin-actions .button{letter-spacing:.14em;padding:0 8px}}
+
+.site-header{padding:26px 20px 18px;gap:9px}.brand img{width:min(260px,68vw)}
+@media(min-width:650px){.site-header{padding:30px 20px 20px}.brand img{width:min(310px,50vw)}}
+
+/* NEW: etiqueta en la esquina del botón, fuera del texto y sin capturar toques */
+.admin-actions .button{position:relative;overflow:visible}
+.admin-actions .new-tag{position:absolute;top:-8px;right:-6px;margin:0;padding:4px 6px;font:600 9px/1 var(--sans);letter-spacing:.12em;background:var(--gold);color:#fff;border-radius:0;pointer-events:none;z-index:2;box-shadow:0 0 0 2px var(--cream)}
