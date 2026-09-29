@@ -111,3 +111,14 @@ button,input,select,.button,.admin-card,.admin-create,.admin-product>img,.admin-
 .confirm-pay{background:var(--ink);color:var(--cream);padding:18px;margin:0 0 18px}.confirm-pay small{color:var(--gold-soft)}
 .confirm-pay p{display:flex;justify-content:space-between;align-items:baseline;margin:7px 0;font-size:14px}
 .confirm-pay b{font:400 20px var(--serif);letter-spacing:.06em}
+
+/* Colores opcionales por producto */
+.colors-line{display:block;color:var(--muted);font-size:10px;letter-spacing:.06em;margin:-4px 0 10px}
+.color-card h2{margin-bottom:18px;padding-right:30px}
+.color-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.color-option{min-height:48px;padding:0 12px;background:transparent;border:1px solid var(--ink);color:var(--ink);font-size:12px;letter-spacing:.14em;text-transform:uppercase;transition:background .2s,color .2s}
+.color-option:hover,.color-option:active{background:var(--ink);color:var(--cream)}
+.cart-color{display:block;color:var(--gold);font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-top:3px}
+.admin-product-fields .colors-field{grid-column:1/-1}
+.admin-create .colors-field{grid-column:1/-1}
+.admin-create .colors-field small{color:var(--muted);font-size:10px}
